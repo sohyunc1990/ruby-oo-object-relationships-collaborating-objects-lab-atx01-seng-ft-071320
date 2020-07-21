@@ -20,6 +20,7 @@ class Artist
   def songs
     artist.all.map do |song|
       song.name
+      binding.pry
     end
   end
 
