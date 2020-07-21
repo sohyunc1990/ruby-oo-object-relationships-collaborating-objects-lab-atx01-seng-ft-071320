@@ -18,8 +18,8 @@ class Artist
   end
   
   def songs
-    artist.all.map do |song|
-      song.name
+    # artist.all.map do |song|
+    #   song.name
       binding.pry
     end
   end
